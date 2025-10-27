@@ -1,0 +1,150 @@
+============================================================
+植物生长速度预测系统 - 线性回归模型
+============================================================
+
+1. 数据加载与预处理
+数据加载成功，形状: (1000, 4)
+数据基本信息: (1000, 4)
+特征列: ['Temperature', 'Humidity', 'Soil_Moisture', 'Growth']
+训练集大小: (800, 3)
+测试集大小: (200, 3)
+
+2. 模型初始化
+
+3. 模型训练
+开始训练模型...
+Epoch 0, Loss: 6409.2893
+Epoch 10, Loss: 56.3474
+Epoch 20, Loss: 24.7144
+Epoch 30, Loss: 24.8670
+Epoch 40, Loss: 24.4192
+Epoch 50, Loss: 24.6627
+Epoch 60, Loss: 24.6914
+Epoch 70, Loss: 24.8083
+Epoch 80, Loss: 24.4993
+Epoch 90, Loss: 24.6777
+Epoch 100, Loss: 24.5471
+Epoch 110, Loss: 25.2576
+Epoch 120, Loss: 24.3910
+Epoch 130, Loss: 24.6144
+Epoch 140, Loss: 24.4171
+Epoch 150, Loss: 24.5860
+Epoch 160, Loss: 24.6472
+Epoch 170, Loss: 24.5831
+Epoch 180, Loss: 24.4460
+Epoch 190, Loss: 24.5156
+Epoch 200, Loss: 24.6308
+Epoch 210, Loss: 24.9619
+Epoch 220, Loss: 24.5633
+Epoch 230, Loss: 24.4830
+Epoch 240, Loss: 24.1866
+Epoch 250, Loss: 24.6178
+Epoch 260, Loss: 24.8348
+Epoch 270, Loss: 24.3068
+Epoch 280, Loss: 24.4534
+Epoch 290, Loss: 24.6920
+Epoch 300, Loss: 24.6400
+Epoch 310, Loss: 24.4529
+Epoch 320, Loss: 24.5533
+Epoch 330, Loss: 24.4185
+Epoch 340, Loss: 24.9029
+Epoch 350, Loss: 24.7074
+Epoch 360, Loss: 24.8101
+Epoch 370, Loss: 24.4726
+Epoch 380, Loss: 24.5815
+Epoch 390, Loss: 24.9512
+Epoch 400, Loss: 24.5002
+Epoch 410, Loss: 24.5377
+Epoch 420, Loss: 24.7414
+Epoch 430, Loss: 24.7960
+Epoch 440, Loss: 24.4371
+Epoch 450, Loss: 24.6019
+Epoch 460, Loss: 24.4227
+Epoch 470, Loss: 24.8526
+Epoch 480, Loss: 24.6106
+Epoch 490, Loss: 24.7241
+Epoch 500, Loss: 24.3243
+Epoch 510, Loss: 24.3697
+Epoch 520, Loss: 24.3377
+Epoch 530, Loss: 24.3079
+Epoch 540, Loss: 24.4919
+Epoch 550, Loss: 25.0706
+Epoch 560, Loss: 24.5077
+Epoch 570, Loss: 24.5179
+Epoch 580, Loss: 24.2510
+Epoch 590, Loss: 24.6627
+Epoch 600, Loss: 24.4214
+Epoch 610, Loss: 24.4043
+Epoch 620, Loss: 24.7218
+Epoch 630, Loss: 24.3914
+Epoch 640, Loss: 24.0685
+Epoch 650, Loss: 24.3789
+Epoch 660, Loss: 24.5421
+Epoch 670, Loss: 24.3467
+Epoch 680, Loss: 24.2263
+Epoch 690, Loss: 24.6780
+Epoch 700, Loss: 24.2001
+Epoch 710, Loss: 24.6348
+Epoch 720, Loss: 24.5012
+Epoch 730, Loss: 24.4570
+Epoch 740, Loss: 24.7079
+Epoch 750, Loss: 24.3879
+Epoch 760, Loss: 24.6672
+Epoch 770, Loss: 24.5227
+Epoch 780, Loss: 24.4321
+Epoch 790, Loss: 24.3892
+Epoch 800, Loss: 24.4628
+Epoch 810, Loss: 24.8501
+Epoch 820, Loss: 25.0993
+Epoch 830, Loss: 24.3524
+Epoch 840, Loss: 24.3233
+Epoch 850, Loss: 24.3247
+Epoch 860, Loss: 24.8917
+Epoch 870, Loss: 24.5768
+Epoch 880, Loss: 24.2949
+Epoch 890, Loss: 24.5943
+Epoch 900, Loss: 25.0827
+Epoch 910, Loss: 24.4833
+Epoch 920, Loss: 24.5615
+Epoch 930, Loss: 24.5386
+Epoch 940, Loss: 24.6806
+Epoch 950, Loss: 24.5163
+Epoch 960, Loss: 25.1615
+Epoch 970, Loss: 24.5955
+Epoch 980, Loss: 25.0040
+Epoch 990, Loss: 24.3758
+训练完成，耗时: 0.24秒
+
+4. 模型预测
+
+5. 模型评估
+
+训练集评估:
+
+==================================================
+模型评估结果
+==================================================
+MSE: 24.5585
+RMSE: 4.9556
+R2_Score: 0.9215
+==================================================
+
+测试集评估:
+
+==================================================
+模型评估结果
+==================================================
+MSE: 27.7898
+RMSE: 5.2716
+R2_Score: 0.9214
+==================================================
+
+6. 结果可视化
+
+7. 保存结果
+预测结果已保存到: results/prediction_results.csv
+模型参数已保存到: results/model_parameters.csv
+
+============================================================
+程序执行完成！
+============================================================
